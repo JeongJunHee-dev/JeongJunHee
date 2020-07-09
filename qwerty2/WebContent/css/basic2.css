@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+       
+            /*왼쪽 오른쪽 박스*/
+            .box {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
+background: #feffe8; /* Old browsers */
+background: -moz-linear-gradient(top,  #feffe8 0%, #d6dbbf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #feffe8 0%,#d6dbbf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #feffe8 0%,#d6dbbf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+
+                width: auto; height: auto;
+                
+                margin: auto; padding: auto;
+                float: right;
+            }
+            
+            .body {
+                width: auto; height: auto;
+                background-color: red
+                margin: auto; padding: auto;
+                float: left;
+                text-align: center;
+            }
+            
+            body { width: auto; height: auto;
+                
+            margin: 50px auto;}
+            #middle {overflow: hidden;}
+            #left {float: left; width: auto; height: auto; background-color: beige;}
+            #center {float: auto; width: auto; height: auto; }
+            #right {float: auto; width: auto; height: auto; background-color: beige;}
+            
+            #top {
+                width: auto;
+                margin: auto;
+                background: ;}
+            #bottom {
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfff4+0,e9e9ce+100;Wax+3D+%232 */
+background: #fcfff4; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcfff4 0%, #e9e9ce 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcfff4 0%,#e9e9ce 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcfff4 0%,#e9e9ce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 ); /* IE6-9 */
+
+                width: auto; height: auto; margin-top:auto; }
+            
+        /*공항 상황별 박스 밑 6개 */
+
+            .box1 {
+               
+                display: inline;
+                width: 100px; height: 15px;
+                background-color: lavender;
+                margin: 11px; padding: 7px;
+                float: center;
+                border-radius: 10px;
+                
+            }
+      /*백그라운드 컬러 및 배경*/
+            body{
+                background-color: snow;
+                background-size: 100%;
+            }
+/*텍스트 글자 색 지정 */
+            a {text-decoration: none;}
+             h1 {color: midnightblue;}
+            h2 {color : darkred;}
+            span {color: crimson;}
+  
+            .font_big {font-size: 1em;}
+            .font_italic {font-style: italic;}
+            .font_bold {font-weight: bold;}
+            .font_center {text-align: center;}
+           
+            /*아래 5개 박스 */
+
+            .button {
+                width: 150px;
+                height: 25px;
+                background-color: lavender;
+                border: 10px solid #FFFFFF;
+                border-radius: 20px; 
+                margin: 10px;
+                box-shadow: 5px 5px 5px #A9A9A9;
+                float: left;
+                display: inline;
+            }
+            
+            .button > a {
+                display: block; 
+                
+            }
+        /*유튜브 정렬 지정*/
+            embed, iframe  {
+                float: center;
+            }
+ /*위 3마크 및 글자 정렬*/
+            .threesteps {float: left; padding: 10px; width: 33%;}
+     
+    /*로그인 박스 크기지정*/
+        .asidelist { padding: 10px 0 30px 0;}
+        .aside-list > h3 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .aside-list li a {
+            overflow: hidden;
+            list-style: none;
+            margin-left: 8px;
+        }
+        .aside-list li a {
+            overflow: hidden;
+            list-style: none;
+            margin-left: 8 px;
+            font-size: 15px;
+            color: black;
+        }
+    
+    
+    
+ .login-page {
+  width: 500px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background-color: beige; /* fallback for old browsers */
+  background-color: -webkit-linear-gradient(right, beige, #8DC26F);
+  background-color: -o-linear-gradient(right, beige, #8DC26F);
+  background-color: linear-gradient(to left, beige, #8DC26F);
+  background-color: -moz-linear-gradient(right, beige, #8DC26F);
+  background-color: -o-linear-gradient(right, beige, #8DC26F);
+  background-color: linear-gradient(to left, beige, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    
